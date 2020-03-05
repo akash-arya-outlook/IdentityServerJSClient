@@ -1,4 +1,17 @@
 
+*.user
+.vscode
+Binaries
+Output
+[Bb]in/
+[Oo]bj/
+JSClientAPI/.vs/*
+JSClientAPI/packages/*
+JSClientAPI/bin
+JSClientAPI/obj/*
 JSClientApp/.vs/*
 JSClientApp/bin/*
 JSClientApp/obj/*
+JSClientApp/packages/
+*.dll
+JSClientAPI\
