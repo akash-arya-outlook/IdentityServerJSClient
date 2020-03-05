@@ -43,7 +43,7 @@ function login() {
 
 function api() {
     mgr.getUser().then(function (user) {
-        var url = "https://localhost:44304/values";
+        var url = "https://localhost:44385/api/values";
 
         var xhr = new XMLHttpRequest();
         xhr.open("GET", url);
